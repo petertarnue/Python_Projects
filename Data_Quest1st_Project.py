@@ -320,8 +320,6 @@ the Installs column, but for the App Store data set this information is missing.
 take the total number of user ratings as a proxy, which we can find in the rating_count_tot app.
 Below, we calculate the average number of user ratings per app genre on the App Store:
 '''
-
-
 genres_ios = freq_table(ios_final, -5)
 
 for genre in genres_ios:
@@ -367,8 +365,3 @@ for category in categories_android:
 for ap in android_final:
     if ap[0] == 'COMMUNICATION' and (ap[5] == '1,000000000+' or ap[5] == '500,000,000+' or ap[5] == '100,000,000+'):
         print(ap[0], ':', ap[5])
-
-
-
-
-
