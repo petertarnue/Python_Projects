@@ -365,3 +365,11 @@ for category in categories_android:
 for ap in android_final:
     if ap[0] == 'COMMUNICATION' and (ap[5] == '1,000000000+' or ap[5] == '500,000,000+' or ap[5] == '100,000,000+'):
         print(ap[0], ':', ap[5])
+<<<<<<< HEAD
+=======
+
+
+print("This is the end of this project")
+
+
+>>>>>>> personal_p

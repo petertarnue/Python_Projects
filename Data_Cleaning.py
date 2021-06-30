@@ -127,3 +127,4 @@ def stripped(string_value):
         string_value = string_value.replace(char, '')
     return string_value
 
+print("This is the end of this project for now, but hope to continue it later on")
